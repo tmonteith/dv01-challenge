@@ -10,7 +10,7 @@
 
 ## Installation Instructions:
 
-- Clone the repo.
+- Clone the repo
 
 ### In the root folder, run the following commands in your terminal to start cypress locally:
 

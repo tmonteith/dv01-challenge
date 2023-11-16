@@ -31,6 +31,7 @@ describe("mortgage calculator test", () => {
     cy.getLoanAmount().type("300000");
     cy.getDownPaymentAmount().clear().type("0");
     cy.getInterestRate().clear().type("5");
+    cy.getLoanYears().clear().type("30");
     cy.getPropertyTaxes().type("2000");
     cy.getInsuranceAmount().type("1865");
     cy.getPMIAmount().type("87");
